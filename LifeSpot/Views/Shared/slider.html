@@ -1,21 +1,33 @@
 ﻿
-<div class="opisaniye-materiala">
-  <div class="images">
-  <img src="\Static\slider\london.jpg">
-  <img src="\Static\slider\ny.jpg">
-  <img src="\Static\slider\spb.jpg">
 
-  </div>
-<div class="btm-slides">
-  <span onclick="btm_slide(1)"></span>
-  <span onclick="btm_slide(2)"></span>
-  <span onclick="btm_slide(3)"></span>
+<div class="slideshow-container">
 
+  <div class="mySlides fade">
+   
+    <img src="\Static\slider\london.jpg" style="width:100%">
+    
   </div>
-<div class="pokazatel-snimka left" onclick="side_slide(-1)">
-  <span class="fas fa-angle-left"></span>
+
+  <div class="mySlides fade">
+    
+    <img src="\Static\slider\ny.jpg" style="width:100%">
+    
   </div>
-<div class="pokazatel-snimka right" onclick="side_slide(1)">
-  <span class="fas fa-angle-right"></span>
+
+  <div class="mySlides fade">
+   
+    <img src="\Static\slider\spb.jpg" style="width:100%">
+   
   </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align: center">
+   
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
 </div>
